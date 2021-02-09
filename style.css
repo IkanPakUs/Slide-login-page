@@ -9,6 +9,7 @@
 body,
 input {
     font-family: "Poppins", sans-serif;
+    color: #f8f1f1;
 }
 
 .container {
@@ -16,7 +17,7 @@ input {
     overflow: hidden;
     width: auto;
     min-height: 100vh;
-    background-color: #ffffff;
+    background-color: #11698e;
 }
 
 .container::before {
@@ -24,8 +25,8 @@ input {
     position: absolute;
     z-index: 10;
     width: 100%;
-    height: 6vh;
-    background-color: rgb(74, 255, 255);
+    height: 5vh;
+    background-color: #16c79a;
     transition: 1.6s ease-in-out;
 }
 
@@ -33,17 +34,18 @@ input {
     outline: none;
     border: none;
     width: 120px;
-    background-color: #5995FD;
+    background-color: #16c79a;
     height: 45px;
     border-radius: 50px;
-    color: #ffffff;
+    color: #f8f1f1;
     font-size: 20px;
     text-transform: uppercase;
     cursor: pointer;
+    transition: background-color 0.4s ease-in-out;
 }
 
 .btn:hover {
-    background-color: #4d84e2;
+    background-color: #12af88;
 }
 
 /* RIGHT PANEL */
@@ -58,7 +60,7 @@ input {
 
 .sign-in-up-form {
     position: absolute;
-    top: 10%;
+    top: 30%;
     left: 10%;
     display: grid;
     grid-template-columns: 1fr;
@@ -97,7 +99,7 @@ form.sign-in-form {
     border-radius: 30px;
     padding: 0 1rem;
     position: relative;
-    background-color: #EBEBEB;
+    background-color: #e7e7de;
 }
 
 input {
@@ -173,12 +175,12 @@ input {
 .btn.transparent {
     margin: 4px;
     background: none;
-    border: 2px solid #5995FD;
+    border: 2px solid #16c79a;
     width: 130px;
     height: 41px;
     font-weight: 600;
     font-size: 0.8rem;  
-    color: #4d84e2;
+    color: #16c79a;
 }
 
 /* ANIMATION */
